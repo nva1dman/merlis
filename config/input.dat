@@ -1,0 +1,31 @@
+[PIPELINE]
+ANALYSIS_MODE = INDIVIDUAL
+SAVE_STACKED = YES
+SAVE_PLOTS = YES
+SAVE_FITS = YES
+OUTPUT_TAG = phase_run_01
+
+APPLY_RV_CHECK = YES
+APPLY_RV_CORRECTION = NO
+RV_SHIFT_WARN_KMS = 5.0
+
+USE_SIGMA_CLIP = NO
+SIGMA_CLIP = 3.0
+
+SNR_DETECT = 3.0
+SNR_RELIABLE = 5.0
+
+GROUP_MODE = NONE
+GROUP_KEY = PHASE
+
+ROUND_DIGITS = 2
+
+[LINES]
+line_id    label    wavelength
+Halpha     Halpha   6562.80
+Hgamma     Hgamma   4340.47
+MgII       MgII     4481.13
+MgI        MgI      5183.60
+FeII       FeII     5316.62
+SiII       SiII     6347.11
+SiII       SiII     6371.37
